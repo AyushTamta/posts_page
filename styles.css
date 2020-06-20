@@ -13,7 +13,7 @@ html{
 }
 
 img{
-    width: 2%;
+    width: 50%;
 
 }
 
@@ -28,8 +28,9 @@ body{
 }
 
 .blog-post{
+   
     width: 100%;
-    max-width: 98rem;
+    max-width: 338rem;
     padding: 5rem;
     background-color: #fff;
     box-shadow: 0 1.4rem 8rem rgba(0 ,0,0,.2);
@@ -120,6 +121,14 @@ body{
         .blog-post{
            max-width: 70rem;
         }
+        .blog-post_img{
+        
+            max-width: 12rem;
+            min-width: 12rem;
+            max-height:0rem ;
+            min-height: 0rem;
+            
+        }
     
 }
 
@@ -138,6 +147,12 @@ body{
     }
 
 
+.button{
+    display: inline;
+    
+  
+
+}
 
 
 
